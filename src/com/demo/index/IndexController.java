@@ -31,7 +31,7 @@ public class IndexController extends Controller {
 	 * 在线上传音频示例
 	 * @throws Exception
 	 */
-	public void qrecord() throws Exception{
+	public void upload() throws Exception{
 		Iterator<FileItem> iter = new ServletFileUpload(new DiskFileItemFactory()).parseRequest(getRequest()).iterator();
 		while (iter.hasNext()) {
 		    FileItem item = iter.next();
