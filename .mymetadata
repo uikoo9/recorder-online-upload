@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="recorder-online-upload"
+  id="myeclipse.1432044987367"
+  context-root="/recorder-online-upload"
+  j2ee-spec="6.0"
+  archive="recorder-online-upload.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
